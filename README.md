@@ -14,7 +14,6 @@ Daily log and codebase for my placement preparation journey, targeting **Java Ba
 
 Target stack: **Java · Spring Boot · Docker · AWS · Redis · Kafka · Spring AI · LangChain4j · pgvector · Microservices**
 
-## 📁 Repo Structure
 ## ✅ Current Progress
 
 - [ ] Java Core fundamentals (syntax → OOP)
