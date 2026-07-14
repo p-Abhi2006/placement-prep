@@ -1,3 +1,5 @@
+package javacore.day02;
+
 import java.util.Scanner;
 
 public class NestedSwitch {

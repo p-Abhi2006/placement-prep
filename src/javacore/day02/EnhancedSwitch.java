@@ -1,6 +1,8 @@
+package javacore.day02;
+
 import java.util.Scanner;
 
-public class SwitchStatement {
+public class EnhancedSwitch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -12,26 +14,17 @@ public class SwitchStatement {
         char op = input.next().charAt(0);
 
         switch (op) {
-            case '+':
-                System.out.println("Result = " + (num1 + num2));
-                break;
-            case '-':
-                System.out.println("Result = " + (num1 - num2));
-                break;
-            case '*':
-                System.out.println("Result = " + (num1 * num2));
-                break;
-            case '/':
+            case '+' -> System.out.println("Result = " + (num1 + num2));
+            case '-' -> System.out.println("Result = " + (num1 - num2));
+            case '*' -> System.out.println("Result = " + (num1 * num2));
+            case '/' -> {
                 if (num2 != 0)
                     System.out.println("Result = " + (num1 / num2));
                 else
                     System.out.println("Division by zero is not possible.");
-                break;
-            case '%':
-                System.out.println("Result = " + (num1 % num2));
-                break;
-            default:
-                System.out.println("Invalid Operator");
+            }
+            case '%' -> System.out.println("Result = " + (num1 % num2));
+            default -> System.out.println("Invalid Operator");
         }
 
         input.close();

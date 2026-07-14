@@ -1,4 +1,4 @@
-package placementprep.day01;
+package javacore.day01;
 
 public class LoopsAndMethods {
 
