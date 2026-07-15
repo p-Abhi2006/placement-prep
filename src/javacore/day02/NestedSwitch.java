@@ -23,11 +23,31 @@ public class NestedSwitch {
                     default -> System.out.println("Invalid Department");
                 }
             }
-            case 2 -> System.out.println("Employee Name: Akhilesh H");
-            case 3 -> System.out.println("Employee Name: Arun");
+
+            case 2 -> {
+                System.out.println("Employee Name: Akhilesh H");
+
+                switch (department) {
+                    case "IT" -> System.out.println("Department: IT");
+                    case "HR" -> System.out.println("Department: HR");
+                    case "SALES" -> System.out.println("Department: Sales");
+                    default -> System.out.println("Invalid Department");
+                }
+            }
+
+            case 3 -> {
+                System.out.println("Employee Name: Arun");
+
+                switch (department) {
+                    case "IT" -> System.out.println("Department: IT");
+                    case "HR" -> System.out.println("Department: HR");
+                    case "SALES" -> System.out.println("Department: Sales");
+                    default -> System.out.println("Invalid Department");
+                }
+            }
+
             default -> System.out.println("Invalid Employee Number");
         }
 
-        input.close();
     }
 }

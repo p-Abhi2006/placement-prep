@@ -15,7 +15,7 @@ public class SwitchStatement {
 
         switch (op) {
             case '+':
-                System.out.println("Result = " + (num1 + num2));
+            {System.out.println("Result = " + (num1 + num2));}
                 break;
             case '-':
                 System.out.println("Result = " + (num1 - num2));
@@ -36,6 +36,5 @@ public class SwitchStatement {
                 System.out.println("Invalid Operator");
         }
 
-        input.close();
     }
 }

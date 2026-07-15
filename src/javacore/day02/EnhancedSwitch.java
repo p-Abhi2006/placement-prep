@@ -27,6 +27,5 @@ public class EnhancedSwitch {
             default -> System.out.println("Invalid Operator");
         }
 
-        input.close();
     }
 }
