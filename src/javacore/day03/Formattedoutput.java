@@ -4,13 +4,12 @@ public class Formattedoutput {
     public static void main(String[] args) {
     String name = "Abhishek";
     int age = 20;
-     System.out.printf("Name: %s Age: %d", name, age);
+     System.out.printf("Name: %s\n Age: %d\n", name, age);
         double salary = 45678.98765;
         System.out.printf("%.2f", salary);
-        String name = "Abhishek";
-        int age = 20;
+
         double cgpa = 9.62;
-        System.out.printf("Name: %s Age: %d CGPA: %.2f", name, age, cgpa);
+        System.out.printf("\nName: %s\n Age: %d\n CGPA: %.2f\n", name, age, cgpa);
 //    Difference Between print(), println() and printf()
 //    Method	Description
 //    print()	Prints without moving to the next line
