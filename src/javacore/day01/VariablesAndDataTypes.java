@@ -17,3 +17,5 @@ public class VariablesAndDataTypes {
         System.out.println("Student: " + isStudent);
     }
 }
+//int,char,bool,double,float are primitives=strored in stack memory
+//String etc are objects =stored in heap memory
