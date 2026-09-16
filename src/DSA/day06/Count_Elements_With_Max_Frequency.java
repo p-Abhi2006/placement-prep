@@ -1,0 +1,21 @@
+package DSA.day06;
+
+public class Count_Elements_With_Max_Frequency {
+    public int maxFrequencyElements(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i=0;i<nums.length;i++) {
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        }
+        int maxFreq = 0;
+        for (int freq : map.values()) {
+            maxFreq = Math.max(maxFreq, freq);
+        }
+        int count = 0;
+        for (int freq : map.values()) {
+            if (freq == maxFreq) {
+                count += freq;
+            }
+        }
+        return count;
+    }
+}
