@@ -1,5 +1,5 @@
 package DSA.day06;
-
+import java.util.HashMap;
 public class Count_Elements_With_Max_Frequency {
     public int maxFrequencyElements(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
