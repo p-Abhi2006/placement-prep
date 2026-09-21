@@ -3,17 +3,14 @@ package DSA.day09;
 public class Runningsum {
 
         public int[] runningSum(int[] nums) {
+                    int sum = 0;
+                    int[] num = new int[nums.length];
 
-            int sum = 0;
+                    for (int i = 0; i < nums.length; i++) {
+                        sum += nums[i];
+                        num[i] = sum;
+                    }
 
-            int num[] = new int[nums.length];
-
-            for(int i = 0; i < nums.length; i++) {
-                sum += nums[i];
-                num[i] = sum;
+                    return num;
+                }
             }
-
-            return num;
-        }
-
-}
