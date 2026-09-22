@@ -2,7 +2,7 @@ package DSA;
 
 public class Rangesum {
         int[] pnum;
-        public NumArray(int[] nums) {
+        public void NumArray(int[] nums) {
             pnum=new int[nums.length];
             pnum[0]=nums[0];
             for(int i=1;i<nums.length;i++){
