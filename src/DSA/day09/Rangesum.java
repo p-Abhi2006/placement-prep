@@ -1,4 +1,4 @@
-package DSA;
+package DSA.day09;
 
 public class Rangesum {
         int[] pnum;
