@@ -3,7 +3,7 @@ package DSA.day11;
 import java.util.HashSet;
 
 public class Intersection_Of_Two_Arrays {
-    import java.util.HashSet;
+
 
         public int[] intersection(int[] nums1, int[] nums2) {
             HashSet<Integer> set = new HashSet<>();
