@@ -3,7 +3,7 @@ package DSA.day18;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class FindDuplicates {
+public class Find_Duplicate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] nums = new int[5];
