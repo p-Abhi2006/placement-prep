@@ -1,4 +1,4 @@
-package DSA.day20;
+package DSA.day21;
 
 import java.util.Scanner;
 
