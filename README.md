@@ -1,35 +1,91 @@
-# Placement Prep — AbhishekP
+# Placement Prep — Abhishek P
 
-Daily log and codebase for my placement preparation journey, targeting **Java Backend + Cloud + AI Integration Engineer** roles.
+A structured learning repository documenting my journey towards becoming a **Java Backend Engineer**, with supporting interests in Cloud Engineering and AI Integration.
 
-🎓 Final-year CSE (VTU) | 🎯 Target: August 2027 Placements
+🎓 Third-year Computer Science Engineering Student | VTU  
+🎯 Placement Target: August 2027
 
-## 🧭 Roadmap Overview
+## 🎯 Career Focus
 
-| Phase | Timeline | Focus |
-|---|---|---|
-| Phase 0 | Jul 22 – Aug 31, 2026 | Java Core, DSA basics (Arrays/Strings), Git habit, dev setup |
-| Phase 1 | Sep – Nov 2026 | 5th Semester — Java OOP depth, DSA continuation, SQL |
-| Phase 2+ | 2027 | Spring Boot, Docker, AWS, Kafka, Redis, AI integration (Spring AI, LangChain4j, RAG) |
+My primary focus is developing strong software engineering fundamentals and practical backend development skills.
 
-Target stack: **Java · Spring Boot · Docker · AWS · Redis · Kafka · Spring AI · LangChain4j · pgvector · Microservices**
+- **Primary:** Java Backend Development
+- **Backend Framework:** Spring Boot
+- **Database:** SQL and PostgreSQL
+- **Problem Solving:** Data Structures and Algorithms
+- **Supporting Areas:** Cloud Computing, DevOps and AI Integration
 
-## ✅ Current Progress
+## 📚 Repository Structure
 
-- [ ] Java Core fundamentals (syntax → OOP)
-- [ ] 30+ LeetCode Easy (Arrays, Strings)
-- [ ] SQL basics (SELECT, JOINs, GROUP BY)
-- [ ] First project: Student Grade Calculator
-- [ ] Daily commit streak
+```text
+placement_prep/
+├── src/
+│   ├── javacore/
+│   │   ├── day01/
+│   │   ├── day02/
+│   │   └── ...
+│   └── DSA/
+│       ├── day01/
+│       ├── day02/
+│       └── ...
+├── .gitignore
+├── README.md
+└── LICENSE
+```
 
-## 📌 Why This Repo Exists
+## 💻 Current Learning Areas
 
-Consistency over speed. This repo is proof of daily work — not a portfolio showpiece (yet). Commits happen even on light days.
+### Java Core
+- Java fundamentals and data types
+- Operators and control flow
+- Methods and arrays
+- Strings and string manipulation
+- Object-oriented programming fundamentals
 
-## 🛠️ Setup
+### Data Structures and Algorithms
+- Arrays and strings
+- Searching and sorting
+- Hashing and frequency counting
+- Prefix sums
+- Recursion
+- Basic mathematical problems
 
-- JDK 21 LTS
-- IntelliJ IDEA / VS Code
-- Git + GitHub
+These topics represent my practice work; I continue revising and strengthening my understanding through independent problem-solving.
 
-Last updated: July 2026
+## 🛠️ Technologies and Tools
+
+**Currently using**
+- Java
+- Git and GitHub
+- IntelliJ IDEA
+
+**Planned learning**
+- Spring Boot
+- PostgreSQL
+- REST API development
+- Docker and AWS
+- AI integration with Java
+
+## 🚀 Learning Roadmap
+
+| Period | Focus |
+|---|---|
+| Nov–Dec 2026 | Java foundations, arrays, strings and DSA |
+| Dec 2026–Jan 2027 | OOP, collections and DSA patterns |
+| Jan–Feb 2027 | SQL, DBMS and Spring Boot foundations |
+| Feb–Apr 2027 | PrepIQ backend development and testing |
+| Apr–Jun 2027 | FinGuard backend engineering |
+| Jun–Jul 2027 | Placement preparation and interview practice |
+| Aug 2027 | Placement season |
+
+## 🎯 Purpose
+
+This repository serves as a record of my learning, practice, problem-solving progress and continuous improvement.
+
+My focus is on understanding concepts, writing code independently, learning from mistakes and building strong engineering fundamentals.
+
+**Consistency, understanding and practical skills over artificial commit streaks.**
+
+---
+
+Last updated: November 2026
